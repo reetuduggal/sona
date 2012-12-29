@@ -6,7 +6,8 @@ class Email extends Z_Controller {
     parent::__construct();
     $this->load->model('Message_model');
   }
-  // this is new
+  // this is new commit 
+  new line  add
   public function inbox($label_id = 0, $message_id = 0) {
     $this->emailfunctions->gatekeeper();
     $this->load->model('Message_model');
