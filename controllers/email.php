@@ -6,7 +6,7 @@ class Email extends Z_Controller {
     parent::__construct();
     $this->load->model('Message_model');
   }
-  // have a nice day
+  // have a nice day helloooooooooooooooooooooo
   new line  add
   public function inbox($label_id = 0, $message_id = 0) {
     $this->emailfunctions->gatekeeper();
